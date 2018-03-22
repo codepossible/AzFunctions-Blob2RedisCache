@@ -1,0 +1,16 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "Azure Web Storage Connection String",
+    "AzureWebJobsDashboard": "Azure Web Jobs Storage Connection String",
+    "SourceAzureBlobStorageConnection": "Azure BLOB Storage Connection String",
+    "SourceBlob": "Azure blob to monitor ex. data/CustomerIdsandNames.txt",
+    "BatchSize":  "Batch Size ex. 2000"
+
+  },
+
+  "ConnectionStrings": {
+    "TargetAzureRedisCacheConnection": "Azure Redis Connection String"
+   }
+    
+}
