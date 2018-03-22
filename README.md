@@ -15,9 +15,17 @@ The CSV file must contain unique keys. If the key already exists in the Redis Ca
 
 ## Application Configuration
 
+Application Setting | Description | Defaults |
+------------------- | ----------- | -------- |
+SourceAzureBlobStorageConnection | Connection string to BLOB Storage used a trigger | None |
+SourceBlob | Fully Qualified path of the BLOB (including container name) in Azure Storage used for trigger | None |
+BatchSize | Number of key-value pairs to be written as a batch | 1000 |
+TargetAzureRedisCacheConnection (ConnectionStrings) | Connection String for the Azure Redis cache | None
 
 
-Please feel free to clone and fork. Looking forward to hear any feedback.
+## Conclusion
+
+Hope you will find the code useful. Please feel free to clone and fork. Looking forward to hear any feedback.
 
 
 
